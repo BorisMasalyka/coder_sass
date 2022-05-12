@@ -1,0 +1,22 @@
+$color:blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: $color;
+    height: 50px;
+    nav{
+        text-align: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            padding: 5px;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+
+}
